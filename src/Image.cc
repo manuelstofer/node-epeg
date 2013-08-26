@@ -16,6 +16,8 @@ Persistent<FunctionTemplate> Image::constructor;
 Image::Image()
 {
   im = NULL;
+  scaled = false;
+  croped = false;
 }
 
 Image::~Image()
